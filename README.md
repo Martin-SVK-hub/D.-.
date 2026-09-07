@@ -263,3 +263,66 @@ if __name__ == "__main__":
 </body>
 </html>
 
+
+
+
+Triangle
+
+
+#include <stdio.h>
+
+int main(void) {
+    printf("Zadaj kolko mas rokov\n");
+
+    int vek;
+    scanf("%d", &vek);
+
+    int medzivysledok = vek * 50;
+
+    if (vek > 18) {
+        printf("Mozes pit alkohol\n");
+    } else {
+        printf("Nemozes pit alkohol\n");
+    }
+
+    for (int i = 0; i < 10; i++) {
+        printf("Cislo i=%d\n", i);
+    }
+
+    printf("Ahoj GCM\n");
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
